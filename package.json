@@ -10,7 +10,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/cyfrost/todoist-linux.git"
+        "url": "https://github.com/raelcun/todoist-linux.git"
     },
     "build": {
         "appId": "com.cyfrost.todoist",
@@ -19,10 +19,7 @@
         },
         "linux": {
             "target": [
-                "deb",
-                "rpm",
-                "AppImage",
-                "tar.gz"
+                "pacman"
             ],
             "category": "Office;Utility;"
         }
